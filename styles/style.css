@@ -31,6 +31,7 @@ a{
     outline: none;
     text-decoration: none;
     color: var(--grey);
+    transition: all .1s ease-in;
 }
 a:hover,
 a:focus {
@@ -254,7 +255,11 @@ h2 {
             letter-spacing: 0.1em;
             margin-bottom: 30px;
             cursor: pointer;
-            
+            transition: all .1s ease-in;
+        }
+        button:hover,
+        button:focus {
+            opacity: 0.5;
         }
         ul {
             display: flex;
@@ -262,6 +267,16 @@ h2 {
             justify-content: space-between;
             margin: 0 auto;
             margin-bottom: 60px;
+
+            li{
+                a{
+                    transition: all .1s ease-in;
+                }
+
+                a:hover svg {
+                    opacity: 0.5;
+                } 
+            }
         }
         .text-contacts {
             text-align: center;
