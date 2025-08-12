@@ -22,7 +22,7 @@ body {
 }
 .container {
     padding: 0 235px;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -54,15 +54,6 @@ h2 {
 /* Header */
 #header {
 .header {
-    padding-top: 27px;
-    padding-bottom: 27px;
-
-    hr {
-        display: block;
-        margin: 0 auto;
-        color: var(--grey);
-        width: 970px;
-    }
 
     .nav {
         display: block;
@@ -73,29 +64,40 @@ h2 {
     ul {
         display: flex;
         gap: 40px;
+
+        li{
+            padding-top: 27px;
+            padding-bottom: 27px;
+        }
     }
+    .line {
+        margin: 0 auto;
+        height: 1px;
+        background-color: var(--grey);
+        max-width: 970px;
+           }
+}
+}
 
-}
 
-.line {
-    display: block;
-    margin: 0 auto;
-    height: 1px;
-    background-color: var(--grey);
-    width: 970px;
-}
-}
 /* Hero */
 
 #hero {
     .hero {
         padding-top: 12px;
+        margin: 0 auto;
+        /* display:flex */
 
         .title {
             margin-bottom: 50px;
             font-weight: 700;
             font-size: 48px;
             text-align: start;
+        }
+        img {
+            display: block;
+            max-width: 970px;
+            height: auto;
         }
     }
 }
