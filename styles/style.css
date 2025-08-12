@@ -52,7 +52,7 @@ h2 {
 }
 
 /* Header */
-
+#header {
 .header {
     padding-top: 27px;
     padding-bottom: 27px;
@@ -84,7 +84,7 @@ h2 {
     background-color: var(--grey);
     width: 970px;
 }
-
+}
 /* Hero */
 
 #hero {
