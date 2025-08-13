@@ -103,7 +103,8 @@ h2 {
         }
         img {
             display: block;
-            max-width: 970px;
+            width: 100%;
+            /* max-width: 970px; */
             height: auto;
         }
     }
@@ -213,6 +214,8 @@ h2 {
                 margin-bottom: 70px;
 
                 img {
+                    width: 100%;
+                    height:auto;
                     margin-bottom: 40px;
                 }
         
